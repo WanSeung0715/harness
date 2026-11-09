@@ -4,11 +4,7 @@
 
 ## 주제별 지침
 
-- [프로젝트 작업 흐름과 구조](homepage-harness/homepage-harness/docs/harness/workflow.md): 저장소 탐색, 요구사항, 경로, 소스·배포 파일 동기화, 변경 관리
-- [보안과 방명록 데이터](homepage-harness/homepage-harness/docs/harness/security-data.md): 입력 처리, 비밀번호, XSS, 개인정보, 파괴적 작업, 악용 방지
-- [Cloudflare 런타임과 배포](homepage-harness/homepage-harness/docs/harness/cloudflare.md): Pages Advanced Mode, Worker 라우팅, D1/KV, 마이그레이션, 로컬 개발, 운영 배포 확인
-- [SEO·접근성·성능](homepage-harness/homepage-harness/docs/harness/seo-performance.md): 페이지 메타데이터, 공유 미리보기, robots/sitemap/Search Console, 접근성, 목록 로딩, 성능 측정
-- [검증 절차와 세션 교훈](homepage-harness/homepage-harness/docs/harness/verification-lessons.md): 완료 보고에 필요한 증거, UI 자동화 범위, QA 관행, 과거 실수에서 얻은 교훈
+- [홈페이지 프로젝트 지침 색인](homepage-harness/AGENTS.md): 홈페이지별 상세 작업 지침
 
 ## 공통 작업 규칙
 
@@ -20,4 +16,4 @@
 
 ## 이전 문서 안내
 
-[`homepage-harness/homepage-harness/HOMEPAGE_PLAYBOOK.md`](homepage-harness/homepage-harness/HOMEPAGE_PLAYBOOK.md)는 기존 링크를 유지하기 위한 안내 문서입니다. 세부 지침의 기준은 `homepage-harness/homepage-harness/docs/harness/` 아래 주제별 문서입니다.
+프로젝트별 지침은 각 프로젝트 디렉터리의 `AGENTS.md`와 그 문서가 연결하는 주제별 지침에서 관리합니다. 현재 홈페이지 지침은 `homepage-harness/`에 있습니다.
